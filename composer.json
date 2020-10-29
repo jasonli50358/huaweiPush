@@ -1,0 +1,21 @@
+{
+    "name": "jasonli50358\/huawei-push",
+	"description": "Encapsulation of Huawei HMS Core5 push sample code",
+	"keywords": [
+        "jason7",
+        "huawei"
+    ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "jasonli50358",
+			"email": "jasonli50358@aliyun.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"files": ["src/hPush.php"]
+	}
+}
