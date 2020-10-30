@@ -177,7 +177,7 @@ class Application
             return null;
         }
 
-        $result = json_decode($this->curl_https_post(str_replace('{appid}', $this->appid, $this->hw_push_server), json_encode($body), [
+        $result = json_decode($this->curl_https_post(str_replace('{app_id}', $this->appid, $this->hw_push_server), json_encode($body), [
             "Content-Type: application/json",
             "Authorization: Bearer {$this->accesstoken}"
         ] // Use bearer auth
