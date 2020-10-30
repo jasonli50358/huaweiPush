@@ -104,7 +104,7 @@ class hPush
             $message['android']['notification']['click_action']['intent'] = $intent.';end';
         }
 
-        $this->application->push_send_msg($message);
+        return $this->application->push_send_msg($message);
     }
 
 
