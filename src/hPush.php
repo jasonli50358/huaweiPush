@@ -95,15 +95,6 @@ class hPush
         $this->application->setAccessToken($token);
     }
 
-    /**
-     * 检查token是否过期
-     * @return bool
-     */
-    public function is_token_expired()
-    {
-        return $this->application->is_token_expired();
-    }
-
     public function sendPushMsgMessageByMsgType($msg_type, $topic = "")
     {
         $application_server = $this->hw_push_server;

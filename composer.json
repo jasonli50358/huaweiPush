@@ -17,6 +17,8 @@
       	"ext-json": "*"
     },
 	"autoload": {
-		"files": ["src/hPush.php"]
+		"psr-4": {
+			"jasonli50358\\huaweiPush\\": "src/"
+		}
 	}
 }
