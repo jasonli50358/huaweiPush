@@ -19,7 +19,7 @@ limitations under the License.
  * function: WebPushNotification class  =>WebPushConfig(notification)
  *                                      =>PushMessage(webpush)
  */
-namespace jason7\huaweiPush\push_msg\webpush;
+namespace jasonli50358\huaweiPush\push_msg\webpush;
 
 use Exception;
 class WebPushNotification

@@ -20,7 +20,7 @@ limitations under the License.
  *           5 kinds of msg payload:$data,$notification,$android,$apns,$webpush
  *           3 kinds of Message sending object:$token,$topic,$condition
  */
-namespace jason7\huaweiPush\push_msg;
+namespace jasonli50358\huaweiPush\push_msg;
 
 class PushMessage
 {

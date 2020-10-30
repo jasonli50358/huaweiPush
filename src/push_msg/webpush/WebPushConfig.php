@@ -18,7 +18,7 @@ limitations under the License.
 /**
  * function: webpush message push control parameter, which is required for webpush msg=>PushMessage(webpush)
  */
-namespace jason7\huaweiPush\push_msg\webpush;
+namespace jasonli50358\huaweiPush\push_msg\webpush;
 
 class WebPushConfig
 {

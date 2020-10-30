@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-namespace jason7\huaweiPush\push_msg;
+namespace jasonli50358\huaweiPush\push_msg;
 
 class ValidatorUtil{
     
