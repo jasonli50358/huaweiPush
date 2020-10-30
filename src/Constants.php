@@ -18,7 +18,7 @@ limitations under the License.
 /**
  * function: const variables
  */
-namespace jason7\huaweiPush;
+namespace jasonli50358\huaweiPush;
 
 
 class Constants

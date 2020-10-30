@@ -8,7 +8,7 @@
  * Time: 15:10
  */
 
-namespace jason7\huaweiPush;
+namespace jasonli50358\huaweiPush;
 
 
 class TopicMsg

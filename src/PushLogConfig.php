@@ -15,10 +15,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-namespace jason7\huaweiPush;
+namespace jasonli50358\huaweiPush;
 
-use jason7\huaweiPush\Constants;
-use jason7\huaweiPush\PushConfig;
+use jasonli50358\huaweiPush\Constants;
+use jasonli50358\huaweiPush\PushConfig;
 use Exception;
 
 class PushLogConfig

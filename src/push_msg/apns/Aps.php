@@ -15,10 +15,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-namespace jason7\huaweiPush\push_msg\apns;
+namespace jasonli50358\huaweiPush\push_msg\apns;
 
-use jason7\huaweiPush\PushLogConfig;
-use jason7\huaweiPush\Constants;
+use jasonli50358\huaweiPush\PushLogConfig;
+use jasonli50358\huaweiPush\Constants;
 
 class Aps {
     

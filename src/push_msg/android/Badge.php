@@ -20,7 +20,7 @@ limitations under the License.
  *                          =>AndroidConfig(notification)
  *                          =>PushMessage(android)
  */
-namespace jason7\huaweiPush\push_msg\android;
+namespace jasonli50358\huaweiPush\push_msg\android;
 
 use Exception;
 

@@ -18,7 +18,7 @@ limitations under the License.
 /**
  * function: Notification message push control parameter =>PushMessage(notification) for ios channel
  */
-namespace jason7\huaweiPush\push_msg\notification;
+namespace jasonli50358\huaweiPush\push_msg\notification;
 
 /**
  * optional for message

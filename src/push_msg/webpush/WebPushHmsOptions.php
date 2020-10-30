@@ -19,7 +19,7 @@ limitations under the License.
  * function: WebPushHmsOptions class  =>WebPushConfig(hms_options)
  *                                    =>PushMessage(webpush)
  */
-namespace jason7\huaweiPush\push_msg\webpush;
+namespace jasonli50358\huaweiPush\push_msg\webpush;
 
 
 class WebPushHmsOptions

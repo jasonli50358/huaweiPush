@@ -20,10 +20,10 @@ limitations under the License.
  *           push_send_msg   => push msg
  *           common_send_msg => topic msg
  */
-namespace jason7\huaweiPush;
+namespace jasonli50358\huaweiPush;
 
-use jason7\huaweiPush\Constants;
-use jason7\huaweiPush\PushLogConfig;
+use jasonli50358\huaweiPush\Constants;
+use jasonli50358\huaweiPush\PushLogConfig;
 
 class Application
 {

@@ -14,13 +14,13 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
  */
-namespace jason7\huaweiPush\push_msg\android;
+namespace jasonli50358\huaweiPush\push_msg\android;
 
-use jason7\huaweiPush\push_msg\ValidatorUtil;
-use jason7\huaweiPush\Constants;
-use jason7\huaweiPush\AndroidConfigDeliveryPriority;
+use jasonli50358\huaweiPush\push_msg\ValidatorUtil;
+use jasonli50358\huaweiPush\Constants;
+use jasonli50358\huaweiPush\AndroidConfigDeliveryPriority;
 use Exception;
-use jason7\huaweiPush\PushLogConfig;
+use jasonli50358\huaweiPush\PushLogConfig;
 
 class AndroidConfig
 {

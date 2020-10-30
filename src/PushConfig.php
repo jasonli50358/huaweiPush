@@ -18,7 +18,7 @@ limitations under the License.
 /**
  * function: read config file and make it applicaitonable
  */
-namespace jason7\huaweiPush;
+namespace jasonli50358\huaweiPush;
 
 class PushConfig
 {

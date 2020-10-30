@@ -18,10 +18,10 @@ limitations under the License.
 /**
  * function: ApnsConfig => =>PushMessage(apns) for ios channel
  */
-namespace jason7\huaweiPush\push_msg\instanceapp;
+namespace jasonli50358\huaweiPush\push_msg\instanceapp;
 
-use jason7\huaweiPush\PushLogConfig;
-use jason7\huaweiPush\Constants;
+use jasonli50358\huaweiPush\PushLogConfig;
+use jasonli50358\huaweiPush\Constants;
 
 class InstanceAppConfig
 {

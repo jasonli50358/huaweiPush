@@ -20,9 +20,9 @@ limitations under the License.
  *                              =>AndroidConfig(notification)
  *                              =>PushMessage(android)
  */
-namespace jason7\huaweiPush\push_msg\android;
+namespace jasonli50358\huaweiPush\push_msg\android;
 
-use jason7\huaweiPush\push_msg\ValidatorUtil;
+use jasonli50358\huaweiPush\push_msg\ValidatorUtil;
 use Exception;
 
 class LightSetting

@@ -15,29 +15,29 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-namespace jason7\huaweiPush;
+namespace jasonli50358\huaweiPush;
 
-use jason7\huaweiPush\push_msg\android\AndroidConfig;
-use jason7\huaweiPush\push_msg\android\AndroidNotification;
-use jason7\huaweiPush\push_msg\android\Badge;
-use jason7\huaweiPush\push_msg\android\ClickAction;
-use jason7\huaweiPush\push_msg\android\LightSetting;
-use jason7\huaweiPush\push_msg\android\LightSettingColor;
-use jason7\huaweiPush\push_msg\apns\Alert;
-use jason7\huaweiPush\push_msg\apns\ApnsConfig;
-use jason7\huaweiPush\push_msg\apns\ApnsHeaders;
-use jason7\huaweiPush\push_msg\apns\ApnsHmsOptions;
-use jason7\huaweiPush\push_msg\apns\Aps;
-use jason7\huaweiPush\push_msg\instanceapp\InstanceAppConfig;
-use jason7\huaweiPush\push_msg\notification\Notification;
-use jason7\huaweiPush\push_msg\webpush\WebPushConfig;
-use jason7\huaweiPush\push_msg\webpush\WebPushHeaders;
-use jason7\huaweiPush\push_msg\webpush\WebPushHmsOptions;
-use jason7\huaweiPush\push_msg\webpush\WebPushNotification;
-use jason7\huaweiPush\push_msg\webpush\WebPushNotificationAction;
-use jason7\huaweiPush\push_msg\instanceapp\InstanceAppPushbody;
-use jason7\huaweiPush\push_msg\instanceapp\InstanceAppRingtone;
-use jason7\huaweiPush\push_msg\PushMessage;
+use jasonli50358\huaweiPush\push_msg\android\AndroidConfig;
+use jasonli50358\huaweiPush\push_msg\android\AndroidNotification;
+use jasonli50358\huaweiPush\push_msg\android\Badge;
+use jasonli50358\huaweiPush\push_msg\android\ClickAction;
+use jasonli50358\huaweiPush\push_msg\android\LightSetting;
+use jasonli50358\huaweiPush\push_msg\android\LightSettingColor;
+use jasonli50358\huaweiPush\push_msg\apns\Alert;
+use jasonli50358\huaweiPush\push_msg\apns\ApnsConfig;
+use jasonli50358\huaweiPush\push_msg\apns\ApnsHeaders;
+use jasonli50358\huaweiPush\push_msg\apns\ApnsHmsOptions;
+use jasonli50358\huaweiPush\push_msg\apns\Aps;
+use jasonli50358\huaweiPush\push_msg\instanceapp\InstanceAppConfig;
+use jasonli50358\huaweiPush\push_msg\notification\Notification;
+use jasonli50358\huaweiPush\push_msg\webpush\WebPushConfig;
+use jasonli50358\huaweiPush\push_msg\webpush\WebPushHeaders;
+use jasonli50358\huaweiPush\push_msg\webpush\WebPushHmsOptions;
+use jasonli50358\huaweiPush\push_msg\webpush\WebPushNotification;
+use jasonli50358\huaweiPush\push_msg\webpush\WebPushNotificationAction;
+use jasonli50358\huaweiPush\push_msg\instanceapp\InstanceAppPushbody;
+use jasonli50358\huaweiPush\push_msg\instanceapp\InstanceAppRingtone;
+use jasonli50358\huaweiPush\push_msg\PushMessage;
 
 class hPush
 {
