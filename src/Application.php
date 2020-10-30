@@ -121,6 +121,15 @@ class Application
     }
 
     /**
+     * 设置token
+     * @param $token
+     */
+    public function setAccessToken($token)
+    {
+        $this->accesstoken = $token;
+    }
+
+    /**
      * 刷新access_token
      * @return array|null
      */

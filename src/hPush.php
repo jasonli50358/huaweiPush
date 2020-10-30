@@ -63,6 +63,10 @@ class hPush
     private $default_topic = 'defaultTopic';
 
     private $str_len = 35;
+    /**
+     * @var Application
+     */
+    private $application;
 
     public function __construct($app_id,$app_secret)
     {
@@ -70,6 +74,25 @@ class hPush
         $this->appid = $app_id;
         $this->hw_token_server = "https://oauth-login.cloud.huawei.com/oauth2/v2/token";
         $this->hw_push_server = "https://push-api.cloud.huawei.com/v1/{app_id}/messages:send";
+        $this->application = $this->createApplication($this->hw_push_server);
+    }
+
+    /**
+     * 获取AccessToken
+     * @return array|null
+     */
+    public function getAccessToken()
+    {
+        return $this->application->refresh_token();
+    }
+
+    /**
+     * 设置accessToken
+     * @param $token
+     */
+    public function setAccessToken($token)
+    {
+        $this->application->setAccessToken($token);
     }
 
     public function sendPushMsgMessageByMsgType($msg_type, $topic = "")
@@ -86,9 +109,6 @@ class hPush
 
     public function sendPushMsgRealMessage($pushData)
     {
-        $application_server = $this->hw_push_server;
-        $application = $this->createApplication($application_server);
-
         $message = [
             'notification'=>[
                 'title'=>$pushData['title'],
@@ -117,7 +137,7 @@ class hPush
             $message['android']['notification']['click_action']['intent'] = $intent.';end';
         }
 
-        $application->push_send_msg($message);
+        $this->application->push_send_msg($message);
     }
 
 
