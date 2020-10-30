@@ -106,21 +106,6 @@ class Application
     }
 
     /**
-     * 检查access_token是否过期
-     * @return bool
-     */
-    public function is_token_expired()
-    {
-        if (empty($this->accesstoken)) {
-            return true;
-        }
-        if (time() > $this->token_expiredtime) {
-            return true;
-        }
-        return false;
-    }
-
-    /**
      * 设置token
      * @param $token
      */
