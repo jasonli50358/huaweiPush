@@ -173,10 +173,6 @@ class Application
             "message" => $msg
         );
 
-        if ($this->is_token_expired()) {
-            $this->refresh_token();
-        }
-        
         if (empty($this->accesstoken)){
             return null;
         }
