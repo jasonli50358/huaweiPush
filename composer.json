@@ -3,6 +3,7 @@
 	"description": "Encapsulation of Huawei HMS Core5 push sample code",
 	"keywords": [
         "push",
+        "HMS Core5",
         "huawei"
     ],
 	"license": "MIT",
